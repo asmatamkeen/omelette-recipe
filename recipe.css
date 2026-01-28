@@ -117,11 +117,10 @@ p, .calories{
 .instructions-div, .ingredients-div{
     margin-bottom: 25px;
 }
-@media (max-width: 375px) {
-  .container {
+@media screen and (max-width: 375px) {
+  .container{
     padding: 0;
   }
-
   .recipe {
     width: 100%;      /* full screen on mobile */
     border-radius: 0; /* remove rounded edges */
