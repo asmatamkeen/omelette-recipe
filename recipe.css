@@ -7,10 +7,10 @@ body{
 .recipe{
     display: flex;
     flex-direction: column;
-    width: 400px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding: 20px;
+    width: 400px;
 }
 .header{
    margin: 0 10px 0 10px;
@@ -112,11 +112,12 @@ p, .calories{
 .instructions-div, .ingredients-div{
     margin-bottom: 25px;
 }
-@media screen and (max-width: 375x) {
+@media screen and (max-width: 375px) {
     .recipe{
         width: 100%;
-        
-        
+    }
+    body{
+        background-color: transparent;
     }
 }
 
