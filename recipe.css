@@ -10,7 +10,6 @@ body{
     width: 400px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    
     padding: 20px;
 }
 .header{
@@ -43,20 +42,24 @@ p, .calories{
     border-radius: 5px;
     margin:15px 0 15px 0px;
     padding: 5px 0 5px 5px;
-    height: 120px;
 }
 .prep-heading{
     font-size: 15px;
-    margin: 15px 0 0 15px;
+    margin: 15px 0 8px 15px;
     color: hsl(332, 51%, 32%);
     font-weight: 600;;
 }
-.prep-points{
-    margin:5px 0 0 0px;
+
+.point-div{
+    display: flex;
+    flex-direction: row;
 }
 .dot{
     margin:0 20px 0 20px;
     font-weight: bold;
+}
+.point{
+    margin: 0 0 10px 0;
 }
 .bold-point{
     font-weight: bold;
@@ -73,7 +76,7 @@ p, .calories{
     font-weight: bold;
 }
 
-.instructions-points, .table-description{
+.instructions-points, .table-description, .prep-points{
     font-size: 9px;
     font-family: Outfit;
 }
@@ -87,8 +90,6 @@ p, .calories{
     flex-direction: row;
     margin: 5px 0 5px 0;
     line-height: 13px;
-}
-.nutrition-div{
 }
 
 .calories{
@@ -107,32 +108,16 @@ p, .calories{
   border: none;
   border-top: 1px solid #ccc;
   margin: 10px 0;
-  width: 370px;
 }
 .instructions-div, .ingredients-div{
     margin-bottom: 25px;
 }
-@media screen and (max-width: 700px) {
-  body {
-    background-color: transparent;
-    padding: 0;
-    display: block; /* change from flex to block */
-  }
-  
-  .recipe {
-    width: 95%;
-    margin: 20px auto; /* centered with some spacing */
-    border-radius: 10px;
-    box-shadow: none;
-  }
-
-  .img {
-    width: 100%; /* make image fit card width */
-    height: auto; /* maintain aspect ratio */
-  }
-
-  .line {
-    width: 100%;
-  }
+@media screen and (max-width: 450px) {
+    .recipe{
+        width: 100%;
+        
+        
+    }
 }
+
 
