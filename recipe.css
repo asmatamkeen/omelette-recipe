@@ -112,7 +112,7 @@ p, .calories{
 .instructions-div, .ingredients-div{
     margin-bottom: 25px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 300px) {
     .recipe{
         width: 100%;
     }
